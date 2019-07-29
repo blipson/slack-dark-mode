@@ -2617,7 +2617,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #ff
 
 .p-apps_browser__app_info { color: #e6e6e6; }
 
-.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #545454; border-color: #828282; color: #e6e6e6; }
+.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #545454 !important; border-color: #828282; color: #e6e6e6; }
 
 .p-apps_browser__browse_apps:hover, .p-apps_browser__browse_apps:focus, .p-apps_browser__app_action:hover, .p-apps_browser__app_action:focus { background-color: #828282; color: #e6e6e6; }
 
@@ -4266,7 +4266,7 @@ footer.p-workspace__primary_view_footer {
     color: #f8f8f8;
 }
 .c-button--outline {
-    background: #e6e6e6;
+    background-color: #e6e6e6;
 }
 .p-classic_nav__team_menu__blurb__sub, .c-menu_item__shortcut, .p-classic_nav__team_menu__blurb__sub, .c-menu_item__button, .c-menu_item__button:link, .c-menu_item__button:visited, .c-menu_item__link_icon {
     color: #949494 !important;
@@ -4290,4 +4290,67 @@ footer.p-workspace__primary_view_footer {
 
 .c-texty_autocomplete__help, .c-texty_autocomplete__group {
     background: #e6e6e6 !important;
+}
+
+.c-fullscreen_modal__body {
+    background: #222 !important;
+    color: #e6e6e6 !important;
+}
+
+.p-dm_browser_modal__list_heading {
+    color: #e6e6e6 !important;
+}
+
+.c-base_entity__metadata {
+    color: #e6e6e6 !important;
+}
+
+.c-base_entity__text {
+    color: #f8f8f8 !important;
+}
+
+.c-base_entity__subtext {
+    color: #949494 !important;
+}
+
+.c-multi_select_input {
+    background-color: #545454 !important;
+}
+.c-token {
+    background: #e8e8e8 !important;
+    color: #363636 !important;
+}
+
+.c-multi_select_input__input:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.p-dm_browser_modal__controls_meta {
+    color: #949494 !important;
+}
+
+.c-multi_select_input:hover {
+    overflow: hidden !important;
+}
+
+.c-fullscreen_modal label {
+    color: #e6e6e6 !important;
+}
+
+.c-fullscreen_modal label strong {
+    color: #f8f8f8 !important;
+}
+
+.p-channel_create_modal__input_subtext, .p-invite_users_input__input_subtext {
+    color: #616061 !important;
+}
+
+.c-select_options_list__wrapper {
+    background-color: #363636 !important;
+}
+
+.p-channel_create_modal__share {
+    background: #e6e6e6 !important;
+    color: #1d1c1d !important;
 }
